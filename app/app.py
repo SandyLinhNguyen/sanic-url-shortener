@@ -8,7 +8,6 @@ from sanic import Sanic, response
 from sanic.exceptions import ServerError
 from sanic_jinja2 import SanicJinja2
 
-##########
 from sanic_prometheus import monitor
 
 import asyncpg
